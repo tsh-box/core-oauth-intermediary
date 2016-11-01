@@ -1,0 +1,10 @@
+version: '2'
+services:
+  oauth-intermediary:
+    build: .
+    container_name: oauth-intermediary
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/data/www/default
+      - ./:/opt/oauth-intermediary

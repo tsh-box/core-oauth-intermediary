@@ -1,0 +1,27 @@
+<?php 
+$config = array(
+		/* A password for encrypting/decrytping state parameters. */
+		'crypto_key' => '',
+		/* 
+		 * A non-null initialization vector for encryption/decryption,
+		 * see http://php.net/manual/en/function.openssl-encrypt.php.
+		 */
+		'crypto_iv' => '',
+		/* Healthgraph API configuration. */
+		'healthgraph' => array(
+				'client_id' => '',
+				'client_secret' => '',
+				'auth_url' => '',
+				'token_url' => '',
+				'redirect_uri' => '',
+		),
+		/* TomTom MySports Cloud configuration. */
+		'tomtom' => array(
+				'client_id' => '',
+				'client_secret' => '',
+				'api_key' => '',
+				'auth_url' => '',
+				'redirect_uri' => '',
+		),
+);
+?>
