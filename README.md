@@ -25,4 +25,4 @@ instructions on building and running.
 ## Meta
 Distributed under the ISC license. See ``LICENSE`` for more information.
 
-<https://github.com/tsh2/oauth-intermediary>
+<https://github.com/tsh-box/oauth-intermediary>
